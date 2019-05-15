@@ -6,8 +6,6 @@ Each folder of this project has its own `README.md` file to explain the purpose 
 
 ## Using the indented syntax
 
-```
-
 ### Use with Node-sass
 
 When using `node-sass` - in order to build that boilerplate, one needs to:
