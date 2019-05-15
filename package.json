@@ -1,0 +1,22 @@
+{
+  "name": "sass-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass stylesheets/main.scss dist/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeCodeCampLisbon/sass-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freeCodeCampLisbon/sass-boilerplate/issues"
+  },
+  "homepage": "https://github.com/freeCodeCampLisbon/sass-boilerplate#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

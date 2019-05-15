@@ -6,14 +6,6 @@ Each folder of this project has its own `README.md` file to explain the purpose 
 
 ## Using the indented syntax
 
-### Sass conversion
-
-This boilerplate does not provide a `.sass` version as it would be painful to maintain both versions without an appropriate build process. However, it is very easy to convert this boilerplate to Sass indented syntax.
-
-Clone it, head into the project and then run:
-
-```
-sass-convert -F scss -T sass -i -R ./  && find . -iname “*.scss” -exec bash -c 'mv "$0" “${0%\.scss}.sass"' {} \;
 ```
 
 ### Use with Node-sass
@@ -29,5 +21,5 @@ npm install -g node-sass
 - run build command from command line:
 
 ```bash
-node-sass stylesheets/main.scss dist/main.css
+npm run start
 ```
